@@ -1,0 +1,60 @@
+/*CUSTOM*/
+.short{
+    width: 30%
+}
+.medium{
+    width: 50%
+}
+.full{
+    width: 100%
+}
+.pointer{
+    cursor: pointer;
+}
+a{
+    text-underline-offset: 0.2rem;;
+}
+/*CUSTOM*/
+
+/*TABLEAU LISTE CLIENTS*/
+
+#tableau-liste-clients {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tableau-liste-clients td,
+#tableau-liste-clients th {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+#tableau-liste-clients tr:nth-child(even) {
+    background-color: darkgray;
+}
+
+#tableau-liste-clients tr:hover {
+    background-color: darkgoldenrod;
+}
+
+#tableau-liste-clients th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: auto;
+    background: #2196f3;
+}
+
+#tableau-liste-clients td {
+    text-align: center;
+    height: 50px;
+    vertical-align: middle;
+}
+
+
+/*TABLEAU LISTE CLIENTS*/
